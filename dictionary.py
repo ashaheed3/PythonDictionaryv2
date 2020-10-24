@@ -1,6 +1,8 @@
 import json
 from difflib import get_close_matches
 
+
+
 data = json.load(open("data.json"))
 data = dict((k.lower(), v) for k, v in data.items())
 
